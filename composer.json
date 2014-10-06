@@ -1,0 +1,26 @@
+{
+    "name": "nkt/rainbow",
+    "description": "The syntax highlighter",
+    "keywords": [
+        "highlight",
+        "syntax",
+        "language"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikita Gusakov",
+            "email": "dev@nkt.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "ext-json": "*",
+        "symfony/console": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rainbow\\": "src"
+        }
+    }
+}
